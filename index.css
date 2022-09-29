@@ -1,0 +1,74 @@
+.container {
+    margin: auto;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.result {
+    text-align: center;
+}
+
+.result h2 {
+    width: 20%;
+    margin: auto;
+    border-radius: 12px;
+}
+
+.players {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.dice {
+    background-image: url(https://www.freeiconspng.com/thumbs/dice-png/dice-png-transparent-images--png-all-4.png);
+    height: 300px;
+    width: 26%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.player-1.number {}
+
+.player-2.number {}
+
+.number {
+    font-size: 30px;
+    border: solid 2px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.btn {
+    border: solid 4px black;
+    text-align: center;
+    width: 6rem;
+    margin: auto;
+    transition: color 2s;
+    transition: 0.7s;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.green {
+    background-color: greenyellow;
+}
+
+.red {
+    background-color: red;
+}
+
+.grey {
+    background-color: gray;
+    width: 20%;
+    margin: auto;
+    border-radius: 12px;
+    color: white;
+}
